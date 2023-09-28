@@ -1,0 +1,520 @@
+ 
+ /* body color #f5f0ea */
+/* font-family: 'Cabin', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #579ff1;
+    
+}
+button{
+    color: rgb(18, 18, 18);
+    background-color: brown;
+    border: none;
+    padding: 1.3rem 3rem;
+    border-radius: 2rem;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 1.5rem ;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    font-size: 1rem;
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+.main_nav{
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-height: 10vh;
+    min-height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    width: 114.3rem;
+    margin-left: -11.4rem;
+}
+
+#logo{
+    flex: 1;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2rem;
+    color: rgb(11, 11, 11);
+}
+.header-nav ul{
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 50;
+}
+.header-nav ul li{
+    list-style: none;
+}
+.header-nav ul li a{
+    font-weight: bold;
+    color: rgb(197, 44, 83);}
+#home-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    margin-top: -2rem;
+}
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+height: 90vh;
+    align-items: center;
+}
+.home-left{
+    width: 50%;
+}
+.home-left h2{
+    color: rgb(255, 250, 250);
+    letter-spacing: 2px;
+    
+}
+.home-left h3{
+    color: rgb(247, 242, 242);
+    letter-spacing: 2px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: mv boli;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 2rem ;
+}
+.home-left p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-top: 2rem ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about-text h1 span{
+    color:#fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+    margin-top: 3rem
+}
+.about-text h1{
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    margin-top: 5rem;
+}
+.about-text {
+    width: 400px;
+    text-align: justify;
+    margin-right: -10px;
+    line-height: 20px;
+}
+.menu_a h2{
+    margin-left: 30rem;
+    margin-top: -17rem;
+    font-family: mv boli;
+    font-size: 2rem;
+    color: brown;
+    
+}
+
+.tte_l h4{
+ font-family: mv boli;
+ margin-left: 40rem;
+ font-size: 3rem;
+ color:#f96b0d;
+}
+
+.menu_a h1{
+    background-color: rgb(247, 231, 231);
+    width: 80rem;
+    height: 10rem;
+    margin-top: 9rem;
+    margin-left: 7rem;
+    display: flex;
+    margin-bottom: -5rem;
+}
+.menu_a img{
+    width: 15rem;
+    height: 11rem;
+    margin-top: -5.6rem;
+    margin-left: 0.4rem;
+    
+    
+   
+}
+.me_y img{
+    width: 15rem;
+    height: 11rem;
+    margin-top: -50rem;
+    margin-bottom: 15.3rem;
+    margin-left: 0.6;
+}
+.jj_l img{
+    width: 15rem;
+    height: 11rem;
+    margin-top: -48rem;
+    margin-bottom: 30.7rem;
+    margin-left: 0.3rem;
+    
+}
+.jj_p h1{
+    margin-top: -140rem;
+    margin-bottom: 130rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+    
+}
+.jj_p p{
+    margin-top: -129rem;
+    margin-bottom: 130rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+    
+}
+.jj_pp h1{
+    margin-top: -122.7rem;
+    margin-bottom: 120rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_pp p{
+    margin-top: -120rem;
+    margin-bottom: 103rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_ppp h1{
+    margin-top: -94rem;
+    margin-bottom: 90rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_ppp p{
+    margin-top: -89rem;
+    margin-bottom: 88rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_ppp h3{
+    margin-top: -80rem;
+    margin-left: 16rem;
+    font-family: mv boli;
+    font-size: 1.6rem;
+    color: aliceblue;
+  
+   
+}
+
+.jj_psp h1{
+    margin-top: 5rem;
+    margin-bottom: 51rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_psp p{
+    margin-top: -49rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_pssp h1{
+    margin-top: -42.5rem;
+    margin-bottom: 60rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_pssp p{
+    margin-top: -59rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+    
+}
+.jj_psssp h1{
+    margin-top: -42rem;
+    margin-bottom: 60rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_psssp p{
+    margin-top: -58.6rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_pssspp h1{
+    margin-top: -33.8rem;
+    margin-bottom: 60rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_pssspp p{
+    margin-top: -58.6rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_ppssspp h1{
+    margin-top: -41.8rem;
+    margin-bottom: 60rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_ppssspp p{
+    margin-top: -58.6rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.jj_pppssspp h1{
+    margin-top: -42.8rem;
+    margin-bottom: 60rem;
+    margin-left: 30rem;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    font-family: mv boli;
+}
+.jj_pppssspp p{
+    margin-top: -58.6rem;
+    margin-bottom: 50rem;
+    margin-left: 35rem;
+    font-family: mv boli;
+    color: rgb(0, 0, 0);
+}
+.mm_v h1{
+    margin-top: -93rem;
+    margin-left: 18rem;
+    font-family: mv boli;
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+.b_o h1{
+    margin-top: 55rem;
+    margin-left: 7rem;
+    color: aliceblue;
+    font-family: mv boli;
+    
+}
+.b_o p{
+    width: 25rem;
+    text-align: center;
+    font-family: mv boli;
+    margin-top: 1.5rem;
+}
+/*kbb*/
+.icon_P{
+    display: flex;
+}
+.icon_P h1{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 4px;
+    background: var(--bg-grey);
+    color: var(--primary-color);
+    margin-left: 28rem;
+    margin-top: -7.4rem;
+  
+}
+.icon_P h1:hover{
+    transition: 0.5s;
+    background-color: #cd22a8;
+    
+    color: #38cdff;
+  }
+.foood_I h1{
+    margin-top: 46rem;
+    font-family: mv boli;
+    margin-left: 4rem;
+
+}
+.foood_I h2{
+    width: 30rem;
+  align-items: center;
+  text-align: justify;
+  color: #f1f1f1;
+}
+.foood_I h2:hover{
+    color: #f82222;
+  
+  }
+  .a{
+    text-decoration: none;
+  }
+  .href_O ul{
+    display: grid;
+    margin-left: 78rem;
+    margin-top: -11rem;
+  }
+  .href_O li{
+    margin-left: 6rem;
+    margin-top: 1rem;
+  
+    text-decoration: none;
+  
+    font-size: 2rem;
+  }
+  .href_O li a:hover{
+    color: #ffac38;
+    background-color: #1915ea;
+   
+  }
+  a{
+    text-decoration: none;}
+    .KBGH_k h2{
+        margin-left: 40rem;
+         margin-top: -8rem;
+      
+      }
+      .KBGH_k h2:hover{
+        color: #ffffff;
+        
+      
+      }
+      .Photo h1{
+        margin-left: 57rem;
+        margin-top: -6rem;
+        font-family: mv boli;
+
+      }
+      .Icon_U p{
+        margin-left: 33rem;
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        border-radius: 4px;
+          background: var(--bg-grey);
+          color: var(--primary-color);
+          width: 36px;
+          height: 36px;
+          
+        
+      }
+      .Icon_U p:hover{
+        background-color: #f82222;
+        color: #444;
+        transition: 0.5s;
+        margin-left: -2rem;
+      }
+      .LKH{
+        width: 36px;
+        
+          height: 36px;
+          line-height: 36px;
+          text-align: center;
+          font-size: 15px;
+          border-radius: 4px;
+          background: var(--bg-grey);
+          color: var(--primary-color);
+          margin-left: 35rem;
+          margin-top: -4.4rem;
+         
+      }
+      .LKH:hover{
+        background-color: #ffac38;
+        color: #f1f1f1;
+      
+      }
+      .FOod_ter img{
+        width: 10rem;
+        height: 5rem;
+        margin-left: 60rem;
+        margin-top: -8rem;
+      }
+      .FOod_terr img{
+        width: 10rem;
+        height: 5rem;
+        margin-left: 45rem;
+        margin-top: -15rem;
+        margin-bottom: 1.2rem;
+        color: var(--primary-color);
+       background: var(--bg-grey);
+      }
+      .FOod_terr:hover{
+        color: #000000;
+       
+        margin-top: -3rem;
+      
+      }
+      .FOod_terrr img{
+        width: 10rem;
+        height: 5rem;
+        margin-left: 60rem;
+        margin-top: -33rem;
+        margin-bottom: 9rem;
+      }
+      .Ic{
+        margin-left: 33rem;
+        font-family: mv boli;
+        color: #f1f1f1;
+      }
+      .LV p{
+        margin-left: 50rem;
+        margin-top: -20rem;
+        font-size: 1.2rem;
+      
+      }
+      .sss_l h1{
+        background-color: #444;
+        margin-top: -16rem;
+        width: 113rem;
+        margin-left: -107px;
+        height: 20rem;
+      
+      
+      }
